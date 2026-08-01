@@ -1,0 +1,20 @@
+[
+  {
+    "id": "uni-udst",
+    "name": "UDST",
+    "focus": "Applied Sciences",
+    "pushed": 12
+  },
+  {
+    "id": "uni-hbku",
+    "name": "HBKU",
+    "focus": "AI & Research",
+    "pushed": 9
+  },
+  {
+    "id": "uni-qu",
+    "name": "Qatar University",
+    "focus": "General",
+    "pushed": 21
+  }
+]

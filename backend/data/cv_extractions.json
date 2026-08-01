@@ -1,0 +1,54 @@
+[
+  {
+    "fullName": "Aisha Al-Kuwari",
+    "email": "aisha.alkuwari@example.qa",
+    "linkedin": "https://linkedin.com/in/aisha-kuwari",
+    "university": "Qatar University",
+    "degree": "BSc",
+    "major": "Computer Science",
+    "gradYear": "2026",
+    "currentAcademicStatus": "Pursuing",
+    "skillSet": [
+      "JavaScript",
+      "Python",
+      "SQL",
+      "HTML/CSS",
+      "React",
+      "Node.js",
+      "Tailwind CSS",
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Figma"
+    ],
+    "cvLink": "http://localhost:8000/uploads/c817c2ac11bf46cd8a7e331a9fecad25.pdf",
+    "extractedAt": "2026-08-01T18:39:33.706206+00:00",
+    "id": "cvx-24c61106"
+  },
+  {
+    "fullName": "Aisha Al-Kuwari",
+    "email": "aisha.alkuwari@example.qa",
+    "linkedin": "https://linkedin.com/in/aisha-kuwari",
+    "university": "Qatar University",
+    "degree": "BSc",
+    "major": "Computer Science",
+    "gradYear": "2026",
+    "currentAcademicStatus": "Pursuing",
+    "skillSet": [
+      "JavaScript",
+      "Python",
+      "SQL",
+      "HTML/CSS",
+      "React",
+      "Node.js",
+      "Tailwind CSS",
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Figma"
+    ],
+    "cvLink": "http://localhost:8000/uploads/b2527573ad2044939dd6717fc567756f.pdf",
+    "extractedAt": "2026-08-01T18:56:07.388677+00:00",
+    "id": "cvx-7bdb7d51"
+  }
+]

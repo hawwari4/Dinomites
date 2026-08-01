@@ -1,0 +1,38 @@
+[
+  {
+    "id": "byoc-002",
+    "startupId": "st-snoonu",
+    "startupName": "Snoonu Labs",
+    "fullName": "Ali Farooq",
+    "email": "ali.farooq@external.com",
+    "cvLink": "https://drive.example.com/cv/ali.pdf",
+    "track": "placement",
+    "commitment": "PT",
+    "status": "rejected",
+    "submittedAt": "2026-07-31T10:38:03.243758+00:00"
+  },
+  {
+    "startupId": "st-nabta",
+    "startupName": "Nabta Health",
+    "fullName": "ali",
+    "email": "ali@gmail.com",
+    "cvLink": "https://github.com/aisha",
+    "track": "qstp",
+    "commitment": "PT",
+    "status": "approved",
+    "submittedAt": "2026-08-01T18:26:20.228230+00:00",
+    "id": "byoc-e8c3d62e"
+  },
+  {
+    "startupId": "st-nabta",
+    "startupName": "Nabta Health",
+    "fullName": "ahmed",
+    "email": "ar3380800@gmail.com",
+    "cvLink": "http://localhost:8000/uploads/569b2075ab1c479195db4aec73bdfb46.pdf",
+    "track": "placement",
+    "commitment": "PT",
+    "status": "pending_qstp_approval",
+    "submittedAt": "2026-08-01T20:17:13.766443+00:00",
+    "id": "byoc-43668071"
+  }
+]

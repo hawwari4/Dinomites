@@ -1,0 +1,21 @@
+[
+  {
+    "startupId": "st-nabta",
+    "fileName": "Approved_JD_Template.pdf",
+    "fileUrl": "http://localhost:8000/uploads/569b2075ab1c479195db4aec73bdfb46.pdf",
+    "extractedSkills": [
+      "JavaScript",
+      "React",
+      "Tailwind CSS",
+      "Bootstrap"
+    ],
+    "summary": "Nabta Health is a QSTP-incubated startup dedicated to revolutionizing digital healthcare workflows in the MENA region. We are looking for a passionate engineering intern to join our agile development team.",
+    "position": "Frontend Software Engineering Intern",
+    "commitment": "PT",
+    "weeklyHours": 20,
+    "weeks": 12,
+    "cycle": "summer",
+    "uploadedAt": "2026-08-01T18:45:46.034859+00:00",
+    "id": "jd-f5d98b68"
+  }
+]

@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+@theme {
+  --color-qstp-50: #e6f6f7;
+  --color-qstp-100: #c1e9eb;
+  --color-qstp-200: #8ed6da;
+  --color-qstp-300: #4fbec5;
+  --color-qstp-400: #1ea9b2;
+  --color-qstp-500: #009aa6;
+  --color-qstp-600: #00808c;
+  --color-qstp-700: #00705a;
+  --color-qstp-800: #004a4f;
+  --color-qstp-900: #002f33;
+  --color-lime-500: #c6d500;
+  --font-sans: 'Inter', ui-sans-serif, system-ui;
+  --shadow-card: 0 1px 2px rgba(16, 24, 40, .04), 0 1px 3px rgba(16, 24, 40, .06);
+  --shadow-soft: 0 6px 24px rgba(0, 154, 166, .10);
+}
+
+html,
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #f7fafb;
+  color: #0f172a;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 8px;
+}
+
+.fade-in {
+  animation: fadeIn .28s ease-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: none; }
+}
+
+.pulse-dot {
+  animation: pulse 1.4s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .4; }
+}
+
+.toast-in {
+  animation: toastIn .3s ease-out;
+}
+@keyframes toastIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+
+.pop-in {
+  animation: popIn .4s cubic-bezier(.34, 1.56, .64, 1);
+}
+@keyframes popIn {
+  from { opacity: 0; transform: scale(.7); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.slide-up {
+  animation: slideUp .35s ease-out;
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+
+.slide-page {
+  animation: slidePage .32s cubic-bezier(.22, 1, .36, 1);
+}
+@keyframes slidePage {
+  from { opacity: 0; transform: translateX(18px); }
+  to { opacity: 1; transform: none; }
+}
+
+.ring-focus:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 154, 166, .25);
+  border-color: #009aa6;
+}
+
+.grad-hero {
+  background:
+    radial-gradient(1200px 500px at 10% -10%, rgba(0, 154, 166, .18), transparent 60%),
+    radial-gradient(900px 400px at 100% 0%, rgba(0, 112, 90, .18), transparent 60%);
+}
+
+.qstp-dots {
+  background-color: #00705a;
+  background-image:
+    radial-gradient(circle at 25% 25%, #c6d500 6px, transparent 7px),
+    radial-gradient(circle at 75% 25%, #009aa6 6px, transparent 7px),
+    radial-gradient(circle at 25% 75%, #009aa6 6px, transparent 7px),
+    radial-gradient(circle at 75% 75%, #c6d500 6px, transparent 7px);
+  background-size: 32px 32px;
+}
+
+.step-line {
+  flex: 1;
+  height: 2px;
+  background: #e2e8f0;
+}
+.step-line.done {
+  background: #009aa6;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 24px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background: #cbd5e1;
+  border-radius: 999px;
+  transition: .2s;
+}
+.slider::before {
+  content: '';
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  top: 3px;
+  background: white;
+  border-radius: 50%;
+  transition: .2s;
+}
+input:checked + .slider {
+  background: #009aa6;
+}
+input:checked + .slider::before {
+  transform: translateX(18px);
+}

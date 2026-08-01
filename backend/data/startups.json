@@ -1,0 +1,76 @@
+[
+  {
+    "id": "st-nabta",
+    "name": "Nabta Health",
+    "sector": "HealthTech",
+    "location": "Tech 2",
+    "qstpCohortsUsed": 1,
+    "premium": false,
+    "needs": [
+      "React",
+      "TypeScript",
+      "Figma",
+      "A/B testing",
+      "JavaScript",
+      "Tailwind CSS",
+      "Bootstrap"
+    ]
+  },
+  {
+    "id": "st-meddy",
+    "name": "Meddy",
+    "sector": "HealthTech",
+    "location": "Tech 1",
+    "qstpCohortsUsed": 3,
+    "premium": false,
+    "needs": [
+      "Python",
+      "PyTorch",
+      "SQL",
+      "MLOps"
+    ]
+  },
+  {
+    "id": "st-baladna",
+    "name": "Baladna Ventures",
+    "sector": "AgriTech",
+    "location": "Tech 3",
+    "qstpCohortsUsed": 3,
+    "premium": true,
+    "needs": [
+      "Aspen",
+      "Process Design",
+      "Sustainability",
+      "MATLAB"
+    ]
+  },
+  {
+    "id": "st-snoonu",
+    "name": "Snoonu Labs",
+    "sector": "Logistics",
+    "location": "Innovation Hub",
+    "qstpCohortsUsed": 2,
+    "premium": false,
+    "needs": [
+      "Node.js",
+      "Kubernetes",
+      "Go",
+      "GIS"
+    ]
+  },
+  {
+    "id": "st-karaz",
+    "name": "Karaz FinTech",
+    "sector": "FinTech",
+    "location": "Tech 2",
+    "qstpCohortsUsed": 0,
+    "premium": true,
+    "needs": [
+      "React",
+      "Python",
+      "Compliance",
+      "SQL",
+      "Data Viz"
+    ]
+  }
+]

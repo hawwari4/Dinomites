@@ -1,0 +1,45 @@
+[
+  {
+    "id": "K-FB5C5E",
+    "candidateId": "c-a6b563ab",
+    "candidateName": "Yousef Al-Kubaisi",
+    "track": "placement",
+    "startup": "Karaz FinTech",
+    "cycle": "fall",
+    "commitment": "FT",
+    "weeks": 12,
+    "signed": false,
+    "sentAt": "2026-08-01T12:22:54.246986+00:00",
+    "signedAt": null
+  },
+  {
+    "id": "K-FF925C",
+    "candidateId": "c-d7311334",
+    "candidateName": "ali",
+    "track": "qstp",
+    "startup": "Nabta Health",
+    "cycle": "summer",
+    "commitment": "PT",
+    "weeks": 12,
+    "signed": false,
+    "sentAt": "2026-08-01T19:26:24.562641+00:00",
+    "signedAt": null,
+    "startupSignedAt": "2026-08-01T19:26:24.562641+00:00",
+    "signatureData": null
+  },
+  {
+    "id": "K-0A740E",
+    "candidateId": "c-e529fd35",
+    "candidateName": "Aisha Al-Kuwari",
+    "track": "qstp",
+    "startup": "Nabta Health",
+    "cycle": "winter",
+    "commitment": "FT",
+    "weeks": 12,
+    "signed": false,
+    "sentAt": "2026-08-01T19:29:38.199568+00:00",
+    "signedAt": null,
+    "startupSignedAt": "2026-08-01T19:29:38.199568+00:00",
+    "signatureData": null
+  }
+]
